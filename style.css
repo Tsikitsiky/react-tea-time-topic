@@ -1,0 +1,96 @@
+body {
+    color: #00473E;
+    font-family: 'Roboto', sans-serif;
+    background-color: #E5E5E5;
+}
+
+form, 
+article {
+    background-color: #ffffff;
+}
+
+#root {
+    max-width: 581px;
+    padding: 0 1rem;
+    margin: auto;
+}
+
+.pink-text {
+    color: #D8779A;
+}
+
+article > div {
+    display: flex;
+    justify-content: center;
+    column-gap: 54px;
+}
+
+article > div:first-of-type > button {
+    justify-self: end;
+}
+
+article {
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+}
+
+p {
+    text-align: center;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+.orange-bg {
+    background-color: #FAAE2C;
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    max-width: 581px;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+input {
+    width: 80%;
+    background-color: #E5E5E5;
+    border: 0;
+}
+
+form > .orange-bg {
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 64px;
+    line-height: 75px;
+    font-weight: 400;
+    background-image: url(./assets/wb_sunny-24px.svg);
+    background-position: 85% 70%;
+    background-repeat: no-repeat;
+    background-size: 3.5rem;
+}
+
+ h3 {
+     text-transform: uppercase;
+     font-weight: 400;
+     font-size: 14px;
+    line-height: 17px;
+ }
+
+ .orange-text {
+     color: #FAAE2C;
+     font-size: 12px;
+     line-height: 14px;
+ }
+
